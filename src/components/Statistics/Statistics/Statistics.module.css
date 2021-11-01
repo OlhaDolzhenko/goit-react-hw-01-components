@@ -1,0 +1,18 @@
+.statistics {
+  margin: 0 auto 40px;
+  padding-top: 20px;
+  width: 350px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 20px auto 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.18;
+  color: rgb(44, 44, 44);
+}

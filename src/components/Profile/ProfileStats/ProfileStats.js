@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types';
+import styles from './ProfileStats.module.css';
 
 function ProfileStats({ stats }) {
   return (
-    <ul>
-      <li>
-        <span>Followers</span>
-        <span>{stats.followers}</span>
+    <ul className={styles.list}>
+      <li className={styles.listItem}>
+        <span className={styles.label}>Followers</span>
+        <span className={styles.quantity}>{stats.followers}</span>
       </li>
-      <li>
-        <span>Views</span>
-        <span>{stats.views}</span>
+      <li className={styles.listItem}>
+        <span className={styles.label}>Views</span>
+        <span className={styles.quantity}>{stats.views}</span>
       </li>
-      <li>
-        <span>Likes</span>
-        <span>{stats.likes}</span>
+      <li className={styles.listItem}>
+        <span className={styles.label}>Likes</span>
+        <span className={styles.quantity}>{stats.likes}</span>
       </li>
     </ul>
   );

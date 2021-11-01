@@ -1,0 +1,21 @@
+.status {
+  margin-right: 30px;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.statusActive {
+  composes: status;
+  background-color: seagreen;
+}
+
+.avatar {
+  margin-right: 30px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+}

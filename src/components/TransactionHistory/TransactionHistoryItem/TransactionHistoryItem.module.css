@@ -1,0 +1,6 @@
+.row:nth-child(2n) {
+  background-color: #f5f4fa;
+}
+.row > td {
+  text-align: center;
+}
